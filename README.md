@@ -12,6 +12,24 @@ A text-based fantasy RPG adventure powered by AI. Play an immersive Dungeons & D
 - **Conversation Memory**: The AI remembers your entire adventure
 - **Restart Anytime**: Type 'restart' to begin a new adventure
 
+## Installation Methods
+
+### Method 1: Double-Click Launcher (Mac Only - Easiest)
+
+1. Clone this repository
+2. Install Ollama and download the model:
+   ```bash
+   brew install ollama
+   ollama pull qwen2.5:14b
+   ```
+3. Double-click `launch_dungeon_master.command` to play!
+
+### Method 2: Standalone Executable (Mac - No Python Required)
+
+1. Download the latest release from the [Releases page](https://github.com/omervaner/ai-dungeon-master/releases)
+2. Extract and run `AI-Dungeon-Master` executable in Terminal
+3. Make sure Ollama is installed and the model is downloaded
+
 ## Quick Start
 
 ### Option 1: Cloud Version (Recommended for Speed)
