@@ -23,3 +23,8 @@ Thumbs.db
 
 # Application specific
 page_source.html
+
+# PyInstaller
+build/
+dist/
+*.spec
